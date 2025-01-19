@@ -8,12 +8,13 @@ body {
     background: #141414;
 }
 
-
-/* sidenar*/
 .mainWrapper {
     display: flex;
     align-items: flex-start;
 }
+
+/* sidenar*/
+
 
 .sidebar {
     display: flex;
@@ -80,17 +81,373 @@ nav {
 }
 
 
-/* hover */
+/* headerrrrrrrrrrr */
 
 .hover {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background-color: gray;
-    padding: 20px 0px;
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #434343;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 0;
+}
+
+.serch_form {
+    display: flex;
+    justify-content: center;
+}
+
+.serch_type {
+    padding: 8px 10px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #FAE101;
+    background-color: #141414;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 40px;
+    width: 436px;
+}
+
+.header_button {
+    background: #FAE101;
+    align-items: center;
+    padding: 8px 12px;
+    width: 48px;
+    height: 40px;
+    border: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.serch_logo {
+    width: 24px;
+    height: 24px;
+}
+
+.serch_type::placeholder {
+    color: #FAE101;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.login_box {
+    display: flex;
+    justify-content: flex-end;
+    width: 142px;
+    align-items: center;
+    gap: 12px;
+}
+
+.name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.header_conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 834px;
+}
+
+
+/* mainnnnnnnnnnnnnnn */
+.conteiner {
+    width: 1088px;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.gifting_day {
+    display: flex;
+    justify-content: space-around;
+    background: #222224;
+    border-radius: 16px;
+    align-items: center;
+
+}
+
+.gipting_day_info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 350px;
+}
+
+h1 {
+    color: #FAE101;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+
+}
+
+.gipting_day_info>span {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48.41px;
+    text-align: left;
+    width: 247px;
+}
+
+.gipting_day_info>p {
+    color: #b7b7b7;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.grinchi_mony {
+    width: 283px;
+    height: 269px;
+}
+
+.chanart_box {
+    display: flex;
+    justify-content: space-between;
+    width: 766px;
+    gap: 12px;
+}
+
+
+.acaunt {
+    background-color: #222224;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 12px;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.chanart_img {
+    width: 32px;
+    height: 32px;
+}
+
+.chanart_span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.acaunt:hover {
+    background-color: #FAE101;
+}
+
+.chvristmast_story {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.time_conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.time_conteiner>span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.time_box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+}
+
+.time_p {
+    color: #FAE101;
+}
+
+.box_p {
+    color: #797979;
+}
+
+.style {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.clock_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.time_span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FAE101;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.wertili {
+    background-color: #fff;
+    width: 4px;
+    height: 4px;
+    border-radius: 9999px;
+}
+
+.orwertili {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.grinch_story {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    border: 1px solid #FAE101;
+    background: #222224;
+    border-radius: 12px;
+    width: 352px;
+    padding: 16px;
+}
+
+.grinch {
+    width: 154px;
+    height: 171px;
+}
+
+.box_story {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+}
+
+.star_box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+.doloari_div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.how_span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.story_p {
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.story_box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.story_button {
+    background: #FAE101;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.info_conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info_conteiner_span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.disnei_person_bio {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.disney {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid #FAE101;
+    align-items: center;
+    width: 254px;
+    padding: 16px 0;
+    border-radius: 12px;
+}
+
+.veb_div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 222px;
+}
+
+.disney_img {
+    width: 222px;
+    height: 171px;
 }
